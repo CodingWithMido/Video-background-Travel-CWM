@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    padding: 0 8%;
+    position: relative;
+    background-color: #00000034;
+}
+.logo img{
+    width: 200px;
+    height: auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.navLinks{
+    padding: 28px 0;
+}
+.navLinks li{
+    display: inline-block;
+    margin: 0 15px;
+}
+.navLinks li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+    font-size: 18px;
+    position: relative;
+    font-weight: 700;
+}
+.navLinks li a:hover{
+    text-decoration: 5px whitesmoke solid underline;
+}
+.btn{
+    background: #0051ff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+}
+.btn:hover{
+    background: #0c59feea;
+}
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    max-width: 1000px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    padding: 50px 25px;
+}
+.BgdVideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -999;
+    object-fit: cover;
+}
+.content h1{
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    user-select: none;
+}
+.content form{
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    padding: 5px;
+}
+.content form input{
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    margin-right: 10px;
+    font-size: 18px;
+    width: 25%;
+    border: .5px solid #7c7c7c52;
+    border-radius: 10px;
+}
+.content form input:focus{
+    border: .5px solid #0051ff;
+}
+.content form .destinations{
+    width: 40%;
+}
+.content form .airplane{
+    cursor: pointer;
+    user-select: none;
+}
+.content form button{
+    background: #0051ff;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.content form button:hover{
+    background: #0c59feea;
+}
